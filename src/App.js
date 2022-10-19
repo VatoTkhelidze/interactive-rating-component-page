@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Submit from './Submit';
+import ThankYou from './ThankYou';
+import { useState } from "react";
 
 function App() {
+  const [showPage, setShowpage] = useState(true);
+  const [rating, setRating] = useState();
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    {showPage ? <Submit rating={rating} setRating={setRating} setShowpage={setShowpage}/> : <ThankYou rating={rating} setRating={setRating} setShowpage={setShowpage}/>}
+    </>
+  )
 }
 
 export default App;
+
+
