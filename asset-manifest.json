@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/interactive-rating-component-page/static/css/main.b9b7f2ea.css",
+    "main.js": "/interactive-rating-component-page/static/js/main.1b5645d2.js",
+    "static/media/illustration-thank-you.svg": "/interactive-rating-component-page/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/interactive-rating-component-page/index.html",
+    "static/media/icon-star.svg": "/interactive-rating-component-page/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.b9b7f2ea.css.map": "/interactive-rating-component-page/static/css/main.b9b7f2ea.css.map",
+    "main.1b5645d2.js.map": "/interactive-rating-component-page/static/js/main.1b5645d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9b7f2ea.css",
+    "static/js/main.1b5645d2.js"
+  ]
+}
